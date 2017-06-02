@@ -1,0 +1,15 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "input": {
+    "file_name": null, 
+    "file_md5sum": null, 
+    "project_code": "PRAD-CA", 
+    "object_id": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
