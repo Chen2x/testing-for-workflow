@@ -1,0 +1,13 @@
+{
+  "task": "xml_file_download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "input": {
+    "file_name": "bundle.EGAR00001221605.xml", 
+    "object_id": "ad3f7576-8b6f-5a31-ba26-0822c3df2418"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@download.EGAF00000588186"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "file_name": "{{file_name@download.EGAF00000588186}}", 
+    "file_md5sum": "{{file_md5sum@download.EGAF00000588186}}", 
+    "project_code": "PRAD-CA", 
+    "file": "{{file@download.EGAF00000588186}}", 
+    "object_id": "{{object_id@download.EGAF00000588186}}"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
