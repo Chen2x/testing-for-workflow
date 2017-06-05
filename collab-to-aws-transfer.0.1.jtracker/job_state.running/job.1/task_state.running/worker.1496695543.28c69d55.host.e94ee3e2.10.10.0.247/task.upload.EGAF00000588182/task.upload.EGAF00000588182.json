@@ -1,0 +1,18 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@download.EGAF00000588182"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "file_name": "a00c76352e580a5503c7bf161c686583.CPCG_0047_Ly_R_PE_294_WG_111216_h801_0065_AD0813ACXX_5_NoIndex_R1.fastq.gz", 
+    "file_md5sum": "a00c76352e580a5503c7bf161c686583", 
+    "project_code": "PRAD-CA", 
+    "file": "/home/ubuntu/jtracker/worker.1496695543.28c69d55.host.e94ee3e2.10.10.0.247/job.1/task.download.EGAF00000588182/a00c76352e580a5503c7bf161c686583.CPCG_0047_Ly_R_PE_294_WG_111216_h801_0065_AD0813ACXX_5_NoIndex_R1.fastq.gz", 
+    "object_id": "f8306fe5-0d49-55f8-afd7-8d0e6c3bb2e9"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
