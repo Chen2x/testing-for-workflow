@@ -1,0 +1,27 @@
+{
+  "task": "xml_file_download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "task_state": "completed", 
+      "file_name": "bundle.EGAR00001221605.xml", 
+      "object_id": "ad3f7576-8b6f-5a31-ba26-0822c3df2418", 
+      "file_md5sum": null, 
+      "worker_id": "worker.1496695543.28c69d55.host.e94ee3e2.10.10.0.247", 
+      "file": "/home/ubuntu/jtracker/worker.1496695543.28c69d55.host.e94ee3e2.10.10.0.247/job.2/task.xml_file_download/bundle.EGAR00001221605.xml", 
+      "runtime": {
+        "task_start": 1496697033, 
+        "task_stop": 1496697040
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001221605.xml", 
+    "object_id": "ad3f7576-8b6f-5a31-ba26-0822c3df2418"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
