@@ -1,0 +1,17 @@
+{
+  "task": "xml_file_upload", 
+  "depends_on": [
+    "completed@xml_file_download"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "file_name": "bundle.EGAR00001221603.xml", 
+    "file_md5sum": null, 
+    "file": "{{file@xml_file_download}}", 
+    "object_id": "4b7316f5-92fd-5835-be1f-697bf5d69871"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
