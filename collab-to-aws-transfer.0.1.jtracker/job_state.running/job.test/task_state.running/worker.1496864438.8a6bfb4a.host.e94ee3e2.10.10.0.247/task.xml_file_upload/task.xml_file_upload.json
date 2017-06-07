@@ -8,8 +8,8 @@
   "input": {
     "file_name": "bundle.EGAR00001221604.xml", 
     "file_md5sum": null, 
-    "file": "{{file@xml_file_download}}", 
-    "object_id": "739b4bda-aac9-59c6-8139-d838eb1b6f5b"
+    "object_id": "739b4bda-aac9-59c6-8139-d838eb1b6f5b", 
+    "file": "/home/ubuntu/jtracker/worker.1496864438.8a6bfb4a.host.e94ee3e2.10.10.0.247/job.test/task.xml_file_download/bundle.EGAR00001221604.xml"
   }, 
   "runtime": {
     "docker": null
