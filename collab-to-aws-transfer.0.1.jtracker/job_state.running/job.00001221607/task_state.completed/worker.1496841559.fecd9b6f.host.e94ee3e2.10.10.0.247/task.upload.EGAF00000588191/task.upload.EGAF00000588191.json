@@ -5,6 +5,17 @@
   ], 
   "tool": "upload", 
   "command": "upload.py", 
+  "output": [
+    {
+      "file_md5sum": "b813c98d9945a8b9d214e96ba67291e6", 
+      "worker_id": "worker.1496841559.fecd9b6f.host.e94ee3e2.10.10.0.247", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1496844680, 
+        "task_stop": 1496844814
+      }
+    }
+  ], 
   "input": {
     "file_name": "b813c98d9945a8b9d214e96ba67291e6.CPCG_0047_Pr_P_PE_271_WG_120113_h1080_0091_BD0JH4ACXX_7_NoIndex_R2.fastq.gz", 
     "file_md5sum": "b813c98d9945a8b9d214e96ba67291e6", 
