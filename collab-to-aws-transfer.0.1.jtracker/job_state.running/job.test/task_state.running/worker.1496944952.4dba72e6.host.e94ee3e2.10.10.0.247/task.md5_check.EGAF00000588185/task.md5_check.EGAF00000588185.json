@@ -8,7 +8,7 @@
   "command": "md5_check.py", 
   "input": {
     "file_md5sum": "c9dc3c3fed697c072a3b00c9fe2c4490", 
-    "file": "{{file@download.EGAF00000588185}}"
+    "file": "/home/ubuntu/jtracker/worker.1496944952.4dba72e6.host.e94ee3e2.10.10.0.247/job.test/task.download.EGAF00000588185/c9dc3c3fed697c072a3b00c9fe2c4490.CPCG_0047_Ly_R_PE_294_WG_111216_h801_0065_AD0813ACXX_6_NoIndex_R2.fastq.gz"
   }, 
   "runtime": {
     "docker": null
