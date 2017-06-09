@@ -6,7 +6,7 @@
   "tool": "delete", 
   "command": "delete.py", 
   "input": {
-    "file": "{{file@xml_file_upload}}"
+    "file": "/home/ubuntu/jtracker/worker.1497014782.d2498cfd.host.e94ee3e2.10.10.0.247/job.test/task.xml_file_download/bundle.EGAR00001221604.xml"
   }, 
   "runtime": {
     "docker": null
