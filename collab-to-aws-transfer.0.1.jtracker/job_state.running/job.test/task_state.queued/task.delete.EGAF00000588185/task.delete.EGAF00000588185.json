@@ -1,0 +1,14 @@
+{
+  "task": "delete", 
+  "depends_on": [
+    "completed@upload.EGAF00000588185"
+  ], 
+  "tool": "delete", 
+  "command": "delete.py", 
+  "input": {
+    "file": "{{file@upload.EGAF00000588185}}"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
