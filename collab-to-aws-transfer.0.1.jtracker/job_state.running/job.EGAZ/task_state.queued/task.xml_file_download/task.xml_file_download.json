@@ -1,0 +1,13 @@
+{
+  "task": "xml_file_download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "input": {
+    "file_name": "bundle.EGAZ00001224592.xml", 
+    "object_id": "afde034f-76d2-5641-adc9-def093c3501b"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

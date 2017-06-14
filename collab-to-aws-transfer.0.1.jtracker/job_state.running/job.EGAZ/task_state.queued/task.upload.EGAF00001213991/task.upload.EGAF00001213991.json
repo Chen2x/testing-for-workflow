@@ -1,0 +1,23 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@md5_check.EGAF00001213991", 
+    "completed@download.EGAF00001213991"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "idx_file_md5sum": "{{idx_file_md5sum@download.EGAF00001213991}}", 
+    "file_name": "{{file_name@download.EGAF00001213991}}", 
+    "idx_file": "{{idx_file@download.EGAF00001213991}}", 
+    "object_id": "{{object_id@download.EGAF00001213991}}", 
+    "idx_file_name": "{{idx_file_name@download.EGAF00001213991}}", 
+    "file_md5sum": "{{file_md5sum@download.EGAF00001213991}}", 
+    "file": "{{file@download.EGAF00001213991}}", 
+    "idx_object_id": "{{idx_object_id@download.EGAF00001213991}}", 
+    "project_code": "PRAD-CA"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

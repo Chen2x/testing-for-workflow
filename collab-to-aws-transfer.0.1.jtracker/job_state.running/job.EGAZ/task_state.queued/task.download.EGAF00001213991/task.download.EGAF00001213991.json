@@ -1,0 +1,17 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "input": {
+    "file_name": "575eca73701742dd8d588f3e9fe4be89.CPCG0006-F1.bam", 
+    "object_id": "d7959311-1e98-5725-8d9f-4b3d8976d95d", 
+    "project_code": "PRAD-CA", 
+    "file_md5sum": "575eca73701742dd8d588f3e9fe4be89", 
+    "idx_object_id": "4283d928-2474-5ecb-81e6-bc561bccf8d5", 
+    "idx_file_name": "575eca73701742dd8d588f3e9fe4be89.CPCG0006-F1.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
