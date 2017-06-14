@@ -1,0 +1,15 @@
+{
+  "task": "xml_delete", 
+  "depends_on": [
+    "completed@xml_file_upload"
+  ], 
+  "tool": "delete", 
+  "command": "delete.py", 
+  "input": {
+    "idx_file": "{{idx_file@xml_file_upload}}", 
+    "file": "{{file@xml_file_upload}}"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
