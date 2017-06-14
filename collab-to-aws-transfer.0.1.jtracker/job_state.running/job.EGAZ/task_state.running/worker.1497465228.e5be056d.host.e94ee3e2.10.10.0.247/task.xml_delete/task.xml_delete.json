@@ -6,7 +6,7 @@
   "tool": "delete", 
   "command": "delete.py", 
   "input": {
-    "file": "{{file@xml_file_upload}}"
+    "file": "/home/ubuntu/jtracker/worker.1497465228.e5be056d.host.e94ee3e2.10.10.0.247/job.EGAZ/task.xml_file_download/bundle.EGAZ00001224592.xml"
   }, 
   "runtime": {
     "docker": null
