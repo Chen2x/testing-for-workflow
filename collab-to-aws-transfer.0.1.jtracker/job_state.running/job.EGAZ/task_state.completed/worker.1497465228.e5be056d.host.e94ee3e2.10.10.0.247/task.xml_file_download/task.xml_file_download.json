@@ -1,0 +1,30 @@
+{
+  "task": "xml_file_download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "task_state": "completed", 
+      "file_name": "bundle.EGAZ00001224592.xml", 
+      "idx_file": null, 
+      "object_id": "afde034f-76d2-5641-adc9-def093c3501b", 
+      "file_md5sum": null, 
+      "worker_id": "worker.1497465228.e5be056d.host.e94ee3e2.10.10.0.247", 
+      "file": "/home/ubuntu/jtracker/worker.1497465228.e5be056d.host.e94ee3e2.10.10.0.247/job.EGAZ/task.xml_file_download/bundle.EGAZ00001224592.xml", 
+      "idx_object_id": null, 
+      "runtime": {
+        "task_start": 1497465299, 
+        "task_stop": 1497465306
+      }, 
+      "idx_file_name": null
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAZ00001224592.xml", 
+    "object_id": "afde034f-76d2-5641-adc9-def093c3501b"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
