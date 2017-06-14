@@ -1,0 +1,32 @@
+{
+  "task": "xml_file_upload", 
+  "depends_on": [
+    "completed@xml_file_download"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "output": [
+    {
+      "task_state": "completed", 
+      "idx_file_md5sum": null, 
+      "idx_file": null, 
+      "file_md5sum": "77b40d7f1482be2c4713081162f85afe", 
+      "worker_id": "worker.1497465228.e5be056d.host.e94ee3e2.10.10.0.247", 
+      "file": "/home/ubuntu/jtracker/worker.1497465228.e5be056d.host.e94ee3e2.10.10.0.247/job.EGAZ/task.xml_file_download/bundle.EGAZ00001224592.xml", 
+      "file_size": 15992, 
+      "runtime": {
+        "task_start": 1497465325, 
+        "task_stop": 1497465331
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAZ00001224592.xml", 
+    "file_md5sum": null, 
+    "file": "/home/ubuntu/jtracker/worker.1497465228.e5be056d.host.e94ee3e2.10.10.0.247/job.EGAZ/task.xml_file_download/bundle.EGAZ00001224592.xml", 
+    "object_id": "afde034f-76d2-5641-adc9-def093c3501b"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
