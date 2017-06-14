@@ -8,8 +8,8 @@
   "input": {
     "file_name": "bundle.EGAZ00001224592.xml", 
     "file_md5sum": null, 
-    "file": "{{file@xml_file_download}}", 
-    "object_id": "afde034f-76d2-5641-adc9-def093c3501b"
+    "object_id": "afde034f-76d2-5641-adc9-def093c3501b", 
+    "file": "/home/ubuntu/jtracker/worker.1497465228.e5be056d.host.e94ee3e2.10.10.0.247/job.EGAZ/task.xml_file_download/bundle.EGAZ00001224592.xml"
   }, 
   "runtime": {
     "docker": null
